@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CampusFlow — University Operations</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-icon">✣</span> campus<span>flow</span><small>UNIVERSITY OPERATIONS</small></div>
+    <div class="workspace"><span class="workspace-icon">WU</span><div><strong>Westbridge University</strong><small>Academic workspace</small></div></div>
+    <div class="nav-label">WORKSPACE</div>
+    <nav>
+      <button class="nav active" data-page="overview"><span>▦</span> Overview</button>
+      <button class="nav" data-page="students"><span>♙</span> Students</button>
+      <button class="nav" data-page="courses"><span>▤</span> Courses</button>
+      <button class="nav" data-page="sections"><span>▦</span> Sections</button>
+      <button class="nav" data-page="enrollment"><span>⇄</span> Enrollment</button>
+      <button class="nav" data-page="attendance"><span>✓</span> Attendance</button>
+      <button class="nav" data-page="gradebook"><span>◫</span> Gradebook</button>
+      <button class="nav" data-page="announcements"><span>◉</span> Announcements</button>
+      <button class="nav" data-page="analytics"><span>▥</span> Analytics</button>
+      <button class="nav" data-page="audit"><span>☷</span> Audit log</button>
+    </nav>
+    <div class="side-bottom"><div class="status"><i></i> All systems operational</div><small>Local educational demo<br>Sample student records only</small></div>
+  </aside>
+  <main>
+    <header><span id="breadcrumb">Overview</span><div class="header-right"><span class="term-chip">FALL 2026</span><span class="avatar">CF</span></div></header>
+    <div class="content"><div id="page-content"></div></div>
+  </main>
+  <div id="modal-bg" class="modal-bg hidden"><div class="modal"><button id="close-modal" class="close" aria-label="Close">×</button><div id="modal-content"></div></div></div>
+  <div id="toast" class="toast hidden" role="status"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
